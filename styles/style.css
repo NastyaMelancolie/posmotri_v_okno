@@ -16,6 +16,9 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -130,7 +133,7 @@ ol {
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
-  line-height: 94%; /* 70.5px */
+  line-height: 94%; 
   text-transform: uppercase;
 }
 
@@ -145,7 +148,7 @@ ol {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 30px */
+  line-height: 100%; 
   text-transform: uppercase;
   padding: 2px;
 }
@@ -216,18 +219,17 @@ input::placeholder {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after,
 .search-form__checkbox:active + .search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
   width: 15px;
   height: 15px;
   background-color: #fff;
-  top: 1px;
-  left: 1px;
 }
 
 .button {
