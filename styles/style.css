@@ -42,7 +42,6 @@ ol {
 
 .content {
   display: inline-flex;
-  padding: 133px 30px;
   align-items: flex-end;
   min-width: 1140px;
   gap: 30px;
@@ -56,8 +55,6 @@ ol {
 
 .content__list {
   position: relative;
-  top: 0;
-  left: 0;
   height: 298px;
   overflow-y: auto;
   display: flex;
@@ -79,8 +76,6 @@ ol {
 
 .result__video-container {
   position: relative;
-  top: 0;
-  left: 0;
   min-width: 711px;
   height: 386px;
   margin-bottom: 16px;
@@ -129,12 +124,6 @@ ol {
 
 .content__accent {
   color: #545050;
-  font-family: Oswald, Arial, Helvetica, sans-serif;
-  font-size: 75px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 94%; 
-  text-transform: uppercase;
 }
 
 .content__card-link {
